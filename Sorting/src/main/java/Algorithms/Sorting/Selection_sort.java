@@ -50,19 +50,21 @@ public class Selection_sort {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Scanner scan = new Scanner(System.in);
-		 * System.out.println("Enter the total number of integers to sort");
-		 * 
-		 * for(int i = 0;i<tot;i++) { tot = scan.nextInt(); ar.add(tot); }
-		 */
-		System.out.println("Nothing");
+		
+		 Scanner scan = new Scanner(System.in);
+		 System.out.println("Enter the total number of integers to sort");
+		 
+		 int tot = scan.nextInt();
+		 
+		 for(int i = 0;i<tot;i++) { tot = scan.nextInt(); ar.add(tot); }
+		 
+		/*System.out.println("Nothing");
 		ar.add(3);
 		ar.add(1);
 		ar.add(78);
-		ar.add(3);
+		ar.add(3);   			//To Test
 		ar.add(9);
-		ar.add(0);
+		ar.add(0);*/  
 
 		sort(ar);
 
