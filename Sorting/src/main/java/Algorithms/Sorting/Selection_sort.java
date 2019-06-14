@@ -56,7 +56,7 @@ public class Selection_sort {
 		 * 
 		 * for(int i = 0;i<tot;i++) { tot = scan.nextInt(); ar.add(tot); }
 		 */
-
+		System.out.println("Nothing");
 		ar.add(3);
 		ar.add(1);
 		ar.add(78);
