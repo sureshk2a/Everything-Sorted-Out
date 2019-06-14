@@ -6,7 +6,7 @@ public class Insertion_sort {
 		// TODO Auto-generated method stub
 
 		
-		
+		System.out.println("Init");
 	}
 
 }
